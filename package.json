@@ -1,0 +1,25 @@
+{
+  "name": "demo-13",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "13.5.6",
+    "date-fns": "^2.29.3",
+    "excerpts": "^0.0.3",
+    "marked": "^4.2.12",
+    "pg": "^8.10.0",
+    "sanitize-html": "^2.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "13.5.6"
+  }
+}
